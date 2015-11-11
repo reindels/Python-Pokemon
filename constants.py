@@ -4,6 +4,7 @@ from pokemon_type import pokemon_type
 class constants():
     prompt = ">>>"
     empty = ' --- '
+    
     #
     crit_damage_multiplier = 1.5
     #
@@ -156,12 +157,19 @@ class constants():
     pkm_self = 'User'
     reduces = 'Reduces'
     increases = 'Increases'
-    by_1_stage = '1 Stage'
+    
+    by_1_stages = '1 Stage'
     by_2_stages = '2 Stages'
     by_3_stages = '3 Stages'
     by_4_stages = '4 Stages'
     by_5_stages = '5 Stages'
     by_6_stages = '6 Stages'
+    by_1_stage = '1 Stage'
+    by_2_stage = '2 Stages'
+    by_3_stage = '3 Stages'
+    by_4_stage = '4 Stages'
+    by_5_stage = '5 Stages'
+    by_6_stage = '6 Stages'
     
     random_stat = "Random Stat"
     all_stats = "All Stats"
@@ -256,6 +264,7 @@ class constants():
     status_embargo = "Embargo" # {constants.status_embargo: None}
     status_encore = "Encore" # {constants.status_encore: move, 'turns': 3}
     status_mist = "Mist" # {constants.status_encore: move, 'turns': 3}
+    status_recharge = "Recharging"
     status_user_faints = "User faints."
     status_fainted = 'Fainted' # {constants.status_fainted: None}
     # Positive status conditions
@@ -293,6 +302,7 @@ class constants():
     status_normal = 'Normal' # {constants.status_normal: None}
     status_trick_room = "Trick Room" # {constants.status_trick_room: None, 'turns': 5}
     status_wide_guard = "Wide Gaurd" # {constants.status_wide_guard: None}
+    status_nightmare = "Nightmare" # {constants.status_nightmare: None}
     #Item Types
     item_type_medicine = 'Medicine'
     item_type_vitamin = 'Vitamin'
@@ -327,7 +337,58 @@ class constants():
     growthrate_medium_slow = 'Medium Slow'
     growthrate_slow = 'Slow'
     growthrate_fluctuating = 'Fluctuating'
-    
+    #
+    # MAP CONSTANTS
+    #directions
+    north = "North"
+    south = "South"
+    east = "East"
+    west = "West"
+    # 
+    #terrain Types
+    city = "City"
+    town = "Town"
+    village = "Village"
+    field = "Field"
+    forest = "Forest"
+    woods = "Woods"
+    swamp = "Swamp"
+    desert = "Desert"
+    mountain = "Mountain"
+    volcano = "Volcano"
+    cave = "Cave"
+    cavern = "Cavern"
+    lake = "Lake"
+    ocean = "Ocean"
+    ocean_floor = "Ocean"
+    river = "River"
+
+    # route types
+    field_route = "Field Route"
+    forest_route = "Forest Route"
+    mountain_route = "Mountain Route"
+    ocean_floor_route = "Ocean Floor Route"
+    rural_route = "Rural Route"
+    urban_route = "Urban Route"
+    valley_route = "Valley Route"
+    water_route = "Water Route"
+    #BUILDINGS - Can enter in and out of        # typical rooms
+    house = "House"                             # enterance, hall, kitchen, bedroom, livingroom, stairs, 
+    school = "School"                           # enterance, hall, cafeteria, classroom, office, storeroom, stairs, elevator
+    office_building = "Office Building"         # enterance, hall, office, breakroom, storeroom, stairs, elevator, 
+    museum = "Museum"                           # enterance, hall, frontdesk, hall, exhibit, office, library, cafeteria, shop, storeroom, stairs, elevator 
+    lab = "Laboratory"                          # enterance, hall, library, cafeteria, lab, office, storeroom, pokemoncenter, stairs, elevator
+    pkm_stadium = "Pokemon Stadium"             # enterance, hall, frontdesk, shop, pokemoncenter, waitingroom, stadium, stands, storeroom, stairs, elevator
+    pkm_gym = "Pokemon Gym"                     # enterance, hall, stadium, stands, puzzle, stairs, elevator
+    pkm_center = "Pokemon Center"               # enterance, hall, pokemoncenter, stairs, elevator
+    pkm_mart = "Pokemon Mart"                   # enterance, hall, shop, stairs, elevator
+    dept_store = "Department Store"             # enterance, hall, shop, stairs, elevator
+    mall = "Shopping Mall"                      # enterance, hall, shop (multiple), stairs, elevator
+    cave = "Cave"                               # enterance, hall, cavern, lake, pit, ladder, stairs, elevator
+    # ROOMS
+
+    #
+    #
 #
     type_unknown = pokemon_type()
 #

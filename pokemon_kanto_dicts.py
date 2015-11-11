@@ -120,7 +120,7 @@ energy_ball.copy(), flash.copy(), swords_dance.copy(), grass_knot.copy(), swagge
 secret_power.copy(), nature_power.copy(), confide.copy(), body_slam.copy(), bullet_seed.copy(), captivate.copy(), defense_curl.copy(), 
 fury_cutter.copy(), headbutt.copy(), mimic.copy(), mud_slap.copy(), natural_gift.copy(), string_shot.copy(),seed_bomb.copy()
 ],
-'pokedex entry': {'data': "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower’s coming bloom."}
+'pokedex entry': {'data': "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's coming bloom."}
 }
 #3
 venusaur_d = {'name': "Venusaur", 
@@ -182,7 +182,7 @@ energy_ball.copy(), giga_impact.copy(), flash.copy(), swords_dance.copy(), bulld
 sleep_talk.copy(), substitute.copy(), secret_power.copy(), nature_power.copy(), confide.copy(), body_slam.copy(), bullet_seed.copy(), 
 captivate.copy(), defense_curl.copy(), fury_cutter.copy(), headbutt.copy(), mimic.copy(), mud_slap.copy(), natural_gift.copy(), 
 rock_climb.copy(), string_shot.copy()],
-'pokedex entry': {'data': "By spreading the broad petals of its flower and catching the sun’s rays, it fills its body with power."}
+'pokedex entry': {'data': "By spreading the broad petals of its flower and catching the sun's rays, it fills its body with power."}
 }
 # 4
 charmander_d = {'name': "Charmander", 
@@ -239,7 +239,7 @@ overheat.copy(), fling.copy(), incinerate.copy(), will_o_wisp.copy(), shadow_cla
 sleep_talk.copy(), substitute.copy(), secret_power.copy(), power_up_punch.copy(), confide.copy(), body_slam.copy(), captivate.copy(), 
 defense_curl.copy(), double_edge.copy(), dynamic_punch.copy(), fury_cutter.copy(), headbutt.copy(), mega_kick.copy(), mega_punch.copy(), 
 mimic.copy(), mud_slap.copy(), natural_gift.copy(), rage.copy(), seismic_toss.copy(), swift.copy()],
-'pokedex entry': {'data': "The flame on its tail indicates Charmander’s life force. If it is healthy, the flame burns brightly."}
+'pokedex entry': {'data': "The flame on its tail indicates Charmander's life force. If it is healthy, the flame burns brightly."}
 }
 # 5
 charmeleon_d = {'name': "Charmeleon", 
@@ -353,7 +353,7 @@ tailwind.copy(), thunder_punch.copy(), cut.copy(), fly.copy(), strength.copy(), 
 roar.copy(), toxic.copy(), hidden_power.copy(), sunny_day.copy(), hyper_beam.copy(), protect.copy(), roost.copy(), frustration.copy(), 
 solar_beam.copy(), earthquake.copy(), return_.copy(), dig.copy(), brick_break.copy(), double_team.copy(), flamethrower.copy(), fire_blast.copy(), 
 rock_tomb.copy(), aerial_ace.copy(), facade.copy(), flame_charge.copy(), rest.copy(), attract.copy(), round.copy(), echoed_voice.copy(), 
-overheat.copy(), steel_wing.copy(), focus_wing.copy(), fling.copy(), sky_drop.copy(), incinerate.copy(), will_o_wisp.copy(), shadow_claw.copy(), 
+overheat.copy(), steel_wing.copy(), focus_punch.copy(), fling.copy(), sky_drop.copy(), incinerate.copy(), will_o_wisp.copy(), shadow_claw.copy(), 
 giga_impact.copy(), swords_dance.copy(), bulldoze.copy(), rock_slide.copy(), dragon_tail.copy(), swagger.copy(), sleep_talk.copy(), substitute.copy(), 
 secret_power.copy(), power_up_punch.copy(), confide.copy(), body_slam.copy(), captivate.copy(), defense_curl.copy(), defog.copy(), 
 double_edge.copy(), dynamic_punch.copy(), fury_cutter.copy(), headbutt.copy(), mega_kick.copy(), mega_punch.copy(), mimic.copy(), 
@@ -407,10 +407,10 @@ constants.base_speed: 43,
 40: [hydro_pump.copy()],
 }, 
 'egg moves': [aqua_jet.copy(), aqua_ring.copy(), aura_sphere.copy(), brine.copy(), dragon_pulse.copy(), fake_out.copy(), flail.copy(), 
-foresight.copy(), haze.copy(), mirror_coat.copy(), mist.copy(), mud_sport.copy(), mud_water.copy(), refresh.copy(), water_spout.copy(), 
+foresight.copy(), haze.copy(), mirror_coat.copy(), mist.copy(), mud_sport.copy(), muddy_water.copy(), refresh.copy(), water_spout.copy(), 
 yawn.copy()],
 'learnable moves': [aqua_jet.copy(), aqua_ring.copy(), aura_sphere.copy(), brine.copy(), dragon_pulse.copy(), fake_out.copy(), flail.copy(), 
-foresight.copy(), haze.copy(), mirror_coat.copy(), mist.copy(), mud_sport.copy(), mud_water.copy(), refresh.copy(), water_spout.copy(), 
+foresight.copy(), haze.copy(), mirror_coat.copy(), mist.copy(), mud_sport.copy(), muddy_water.copy(), refresh.copy(), water_spout.copy(), 
 yawn.copy(), aqua_tail.copy(), endure.copy(), focus_punch.copy(), hydro_cannon.copy(), ice_punch.copy(), icy_wind.copy(), iron_defense.copy(), 
 iron_tail.copy(), snore.copy(), water_pulse.copy(), zen_headbutt.copy(), surf.copy(), strength.copy(), waterfall.copy(), rock_smash.copy(), 
 dive.copy(), toxic.copy(), hail.copy(), hidden_power.copy(), ice_beam.copy(), blizzard.copy(), protect.copy(), 
@@ -468,10 +468,10 @@ constants.base_speed: 58,
 48: [hydro_pump.copy()],
 }, 
 'egg moves': [aqua_jet.copy(), aqua_ring.copy(), aura_sphere.copy(), brine.copy(), dragon_pulse.copy(), fake_out.copy(), flail.copy(), 
-foresight.copy(), haze.copy(), mirror_coat.copy(), mist.copy(), mud_sport.copy(), mud_water.copy(), refresh.copy(), water_spout.copy(), 
+foresight.copy(), haze.copy(), mirror_coat.copy(), mist.copy(), mud_sport.copy(), muddy_water.copy(), refresh.copy(), water_spout.copy(), 
 yawn.copy()],
 'learnable moves': [aqua_jet.copy(), aqua_ring.copy(), aura_sphere.copy(), brine.copy(), dragon_pulse.copy(), fake_out.copy(), flail.copy(), 
-foresight.copy(), haze.copy(), mirror_coat.copy(), mist.copy(), mud_sport.copy(), mud_water.copy(), refresh.copy(), water_spout.copy(), 
+foresight.copy(), haze.copy(), mirror_coat.copy(), mist.copy(), mud_sport.copy(), muddy_water.copy(), refresh.copy(), water_spout.copy(), 
 yawn.copy(), aqua_tail.copy(), endure.copy(), focus_punch.copy(), hydro_cannon.copy(), ice_punch.copy(), icy_wind.copy(), iron_defense.copy(), 
 iron_tail.copy(), snore.copy(), water_pulse.copy(), zen_headbutt.copy(), surf.copy(), strength.copy(), waterfall.copy(), rock_smash.copy(), 
 dive.copy(), toxic.copy(), hail.copy(), hidden_power.copy(), ice_beam.copy(), blizzard.copy(), protect.copy(), 
@@ -529,10 +529,10 @@ constants.base_speed: 78,
 60: [hydro_pump.copy()],
 }, 
 'egg moves': [aqua_jet.copy(), aqua_ring.copy(), aura_sphere.copy(), brine.copy(), dragon_pulse.copy(), fake_out.copy(), flail.copy(), 
-foresight.copy(), haze.copy(), mirror_coat.copy(), mist.copy(), mud_sport.copy(), mud_water.copy(), refresh.copy(), water_spout.copy(), 
+foresight.copy(), haze.copy(), mirror_coat.copy(), mist.copy(), mud_sport.copy(), muddy_water.copy(), refresh.copy(), water_spout.copy(), 
 yawn.copy()],
 'learnable moves': [aqua_jet.copy(), aqua_ring.copy(), aura_sphere.copy(), brine.copy(), dragon_pulse.copy(), fake_out.copy(), flail.copy(), 
-foresight.copy(), haze.copy(), mirror_coat.copy(), mist.copy(), mud_sport.copy(), mud_water.copy(), refresh.copy(), water_spout.copy(), 
+foresight.copy(), haze.copy(), mirror_coat.copy(), mist.copy(), mud_sport.copy(), muddy_water.copy(), refresh.copy(), water_spout.copy(), 
 yawn.copy(), aqua_tail.copy(), endure.copy(), focus_punch.copy(), hydro_cannon.copy(), ice_punch.copy(), icy_wind.copy(), iron_defense.copy(), 
 iron_tail.copy(), outrage.copy(), signal_beam.copy(), snore.copy(), water_pledge.copy(), water_pulse.copy(), zen_headbutt.copy(), 
 surf.copy(), strength.copy(), waterfall.copy(), rock_smash.copy(), dive.copy(), roar.copy(), toxic.copy(), hail.copy(), hidden_power.copy(), 

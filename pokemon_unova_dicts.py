@@ -178,7 +178,7 @@ gastro_acid.copy(), headbutt.copy(), ion_deluge.copy(), thrash.copy(), zap_canno
 'learnable moves': [acid.copy(), coil.copy(), crunch.copy(), crush_claw.copy(), discharge.copy(), gastro_acid.copy(), headbutt.copy(), ion_deluge.copy(), thrash.copy(), zap_cannon.copy(),
 aqua_tail.copy(), bind.copy(), bounce.copy(), dragon_pulse.copy(), drain_punch.copy(), endure.copy(), fire_punch.copy(), focus_punch.copy(), 
 gastro_acid.copy(), giga_drain.copy(), iron_tail.copy(), knock_off.copy(), magnet_rise.copy(), outrage.copy(), shock_wave.copy(), signal_beam.copy(), 
-snore.copy(), super_fang.copy(), supepower.copy(), thunder_punch.copy(), acid_spray.copy(), bind.copy(), charge_beam.copy(), spark.copy(), 
+snore.copy(), super_fang.copy(), superpower.copy(), thunder_punch.copy(), acid_spray.copy(), bind.copy(), charge_beam.copy(), spark.copy(), 
 tackle.copy(), thunder_wave.copy(), thunderbolt.copy(), wild_charge.copy(), cut.copy(), strength.copy(), rock_smash.copy(), hone_claws.copy(), 
 dragon_claw.copy(), roar.copy(), toxic.copy(), hidden_power.copy(), hyper_beam.copy(), light_screen.copy(), protect.copy(), rain_dance.copy(), 
 frustration.copy(), thunderbolt.copy(), thunder.copy(), return_.copy(), brick_break.copy(), double_team.copy(), flamethrower.copy(), rock_tomb.copy(), 

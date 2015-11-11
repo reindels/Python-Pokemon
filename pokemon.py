@@ -1078,9 +1078,9 @@ class pokemon():
             self.hp = 0
             self.conditions.append({constants.status_fainted: None})
             for condition in self.conditions: # []
-            for condition_key in condition.keys(): # {}
-                if constants.status_fainted in not condition_key or constants.status_destiny_bond in not condition_key:
-                    self.conditions.remove(condition)
+                for condition_key in condition.keys(): # {}
+                    if constants.status_fainted not in condition_key or constants.status_destiny_bond not in condition_key:
+                        self.conditions.remove(condition)
         return self
     def is_fainted(self):
             return self.has_status_effect(constants.status_fainted)
@@ -1177,8 +1177,8 @@ class pokemon():
     def remove_status_effect(self, status_name=None, move=None):
         if status_name is None:
             return None
-        for condition in self.conditions: # []
-            for condition_key in condition.keys(): # {}
+        for condition in self.conditions: # list
+            for condition_key in condition.keys(): # dict
                 if status_name in condition_key:
                     if condition.get('move') is not None and condition.get('move') is move:
                         self.conditions.remove(condition)
