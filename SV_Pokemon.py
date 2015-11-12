@@ -1,18 +1,16 @@
 '''
 THIS IS THE GAME.  
-
-
 '''
-#imports
-#imports
-from save_and_restore import *
-import os
+#imports standard library
+import os, platform
 import sys
 from os import listdir
 from os.path import isfile, join
 import time
 import atexit
 from random import randint
+
+#imports custom files
 from constants import constants
 from utilities import *
 from trainer import trainer
@@ -26,7 +24,13 @@ from move_dict import *
 from battle import battle
 from items import *
 from cmd_interface import cmd_interface
-clear = lambda: os.system('cls')
+from region import room, area, feature
+from save_and_restore import *
+if platform.system() is "Linux":
+    clear = lambda: os.system('clear')
+else:#if platform.system() is "Windows":
+    clear = lambda: os.system('cls')
+
 petc = lambda: raw_input("Press Enter to Continue...")
 pause = lambda: time.sleep(1)
 #
