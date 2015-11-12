@@ -1,0 +1,70 @@
+WHAT IS DONE:
+Moves, abilities named, no effects yet.
+45/151 kanto pokemon, (just basic info, no Pokedex data)
+Saving works,
+Robust exp gaining system,
+Wild / trainer battles, 
+Capturing pokemon works, 
+Evolution by level, 
+Inventory mechanics,
+
+... Stuff that is important for basic gameplay:
+TO DO: 
+Continue adding move specific effects
+Continue adding ability effects
+Evolution by items (stones), substitute trading with something else,
+
+Add learned, egg, tutored, moves to kanto pokemon
+Tournament battles (no EXP),
+Mapping,
+Item store mechanics,
+Pokemon and trainer creation, (including gym leaders and Elite Four from various regions)
+Tournament tree
+
+... Stuff that is not vital, but fun
+TO DO: 
+Add pokemon pokedex entries to Kanto Pokemon
+continue adding Pokemon dictionaries, Johto, Hoenn, Sinnoh, Unova, Kalos
+
+.... Scenario Modules
+"Gym Leader Castle" story module, (4 battles in a row and a badge awarded)
+
+"Pokemon Stadium" story module, (8 battles in a row and a trophy award)
+
+"Mt. Battle" module story module, (100 straight battles in a row and a trophy award every 10.  
+Every 10 battles get to buy and heal)
+
+"Pokemon League" story module, ( 3-5 round robin qualifiers, followed by tournement tree:  
+64 contestants, 58 random trainers (levels 35-50), 4 Elite Four (levels 45-65), 1 Champion (55-70), 1 Rival (65-70))
+....
+mini adventure modules, (chapters)
+....
+story modules,
+
+
+
+
+This is a large commit.
+SV_Pokemon.py: main program.
+__init__.py: allows other files to be read in directory.
+abilities.py: the class for abilities, also includes all known abilities as of generation 5.
+ability_dicts.py: the dictionaries that are used to populate each ability.
+battle.py: contains functions used for pokemon battles.                                                        
+        Only single and wild pokemon battles implemented.               
+        uses command line interface, planning on changing once I learn Pygame.  lol
+cmd_interface.py: implements some functions for a command lin interface.
+computer_storage_system.py: the class that implements PC storage in the pokemon games.
+constants.py: This files contains a class that holds all the constants of the game.
+        example: 6 for the number of max pokemon in party.
+inventory.py: implements an inventory system using dictionaries.
+items.py: implements items as a class, created by passing in a dictionary.
+move_dict.py: a file that contains all known moves as of gen 5 as a dictionary.
+        used to instantiate the move class.
+moves.py: all konwn moves as of gen 5 as a class.  instantiated with dictionaries.
+pokedex.py: pokedex class.  contains data on pokemon caught by a trainer.
+pokemon.py: pokemon class.  
+pokemon_dicts.py: this file contains a template for how to make the pokemon dictionary for 
+
+
+
+
