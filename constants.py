@@ -344,6 +344,8 @@ class constants():
     south = "South"
     east = "East"
     west = "West"
+    up = "Up"
+    down = "Down"
     # 
     #terrain Types
     city = "City"
@@ -373,20 +375,31 @@ class constants():
     valley_route = "Valley Route"
     water_route = "Water Route"
     #BUILDINGS - Can enter in and out of        # typical rooms
-    house = "House"                             # enterance, hall, kitchen, bedroom, livingroom, stairs, 
+    house = "House"                             # enterance, hall, kitchen, diningroom, bedroom, livingroom, stairs, 
     school = "School"                           # enterance, hall, cafeteria, classroom, office, storeroom, stairs, elevator
     office_building = "Office Building"         # enterance, hall, office, breakroom, storeroom, stairs, elevator, 
     museum = "Museum"                           # enterance, hall, frontdesk, hall, exhibit, office, library, cafeteria, shop, storeroom, stairs, elevator 
     lab = "Laboratory"                          # enterance, hall, library, cafeteria, lab, office, storeroom, pokemoncenter, stairs, elevator
     pkm_stadium = "Pokemon Stadium"             # enterance, hall, frontdesk, shop, pokemoncenter, waitingroom, stadium, stands, storeroom, stairs, elevator
     pkm_gym = "Pokemon Gym"                     # enterance, hall, stadium, stands, puzzle, stairs, elevator
-    pkm_center = "Pokemon Center"               # enterance, hall, pokemoncenter, stairs, elevator
+    pkm_center = "Pokemon Center"               # enterance, hall, frontdesk, stairs, elevator
     pkm_mart = "Pokemon Mart"                   # enterance, hall, shop, stairs, elevator
     dept_store = "Department Store"             # enterance, hall, shop, stairs, elevator
     mall = "Shopping Mall"                      # enterance, hall, shop (multiple), stairs, elevator
     cave = "Cave"                               # enterance, hall, cavern, lake, pit, ladder, stairs, elevator
     # ROOMS
-
+    enterance = "Enterance"
+    exit = "Exit"
+    hall = "Hall"
+    diningroom = "Dining Room"
+    kitchen = "Kitchen"
+    livingroom = "Livingroom"
+    bedroom = "Bedroom"
+    bathroom = "Bathroom"
+    stairway = "Stairway"
+    restroom = "Restroom"
+    lounge = "Lounge"
+    frontdesk = "Front Desk"
     #
     #
 #

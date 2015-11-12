@@ -27,7 +27,10 @@ from move_dict import *
 from battle import battle
 from items import *
 from cmd_interface import cmd_interface
-clear = lambda: os.system('cls')
+if platform.system() is "Linux":
+    clear = lambda: os.system('clear')
+else:#if platform.system() is "Windows":
+    clear = lambda: os.system('cls')
 petc = lambda: raw_input("Press Enter to Continue...")
 cmd_console = cmd_interface()
 
